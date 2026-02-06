@@ -57,9 +57,7 @@ begin
     htmhf_i(MAX_ESUMS_BITS-1 downto 0) <= htmhf;
 
 
--- Note: HLS entity still named v5_da but contains v6 algorithm (this was a routine re-training)
-    
-    anomaly_detection_i: entity work.axol1tl_v5_da
+    anomaly_detection_i: entity work.axol1tl_v6_da
         port map(
             lhc_clk, ap_rst, ap_start,
             open, open, open,
